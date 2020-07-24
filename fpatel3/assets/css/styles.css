@@ -236,9 +236,10 @@ me__data{
 }
 
 /* ===== ABOUT =====*/
-.about__container{
+.about__container{ 
+  float: inline-start;
   row-gap: 2rem;
-  text-align: center;
+ ;
 }
 .about__subtitle{
   margin-bottom: var(--mb-2);
@@ -247,14 +248,16 @@ me__data{
   justify-self: center;
 }
 .about__img img{
+  
   width: 200px;
   border-radius: .5rem;
 }
 
 /* ===== SKILLS =====*/
 .skills__container{
+  float:center;
   row-gap: 2rem;
-  text-align: center;
+  /*text-align: center;*/
 }
 .skills__subtitle{
   margin-bottom: var(--mb-2);
@@ -304,14 +307,17 @@ me__data{
   width: 85%;
 }
 .skills__img{
+  
   border-radius: .5rem;
 }
 
 /* ===== WORK =====*/
 .work__container{
+  float: center;
   row-gap: 2rem;
 }
 .work__img{
+  
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
@@ -378,6 +384,7 @@ me__data{
   .section{
     padding-top: 4rem;
     padding-bottom: 3rem;
+    
   }
   .section-title{
     margin-bottom: var(--mb-6);
