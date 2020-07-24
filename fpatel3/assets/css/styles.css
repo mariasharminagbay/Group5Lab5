@@ -53,6 +53,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
+  background-color:greenyellow;
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -188,8 +189,10 @@ img{
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
+ 
 }
-.home__data{
+me__data{
+  
   align-self: center;
 }
 .home__title{
@@ -354,12 +357,14 @@ img{
 }
 .footer__title{
   font-size: 2rem;
+  text-align: center;
   margin-bottom: var(--mb-4);
 }
 .footer__social{
   margin-bottom: var(--mb-4);
 }
 .footer__icon{
+  align-items: center;
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2)
