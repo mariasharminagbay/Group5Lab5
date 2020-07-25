@@ -33,7 +33,7 @@ table {
     text-align: center;
 }
 
-#bkgrndimgFP {
+body {
     background: url(/images/familyMSA.jpeg) ;
     background-size: auto 100%;
     background-color: rgb(77, 112, 24);
@@ -66,7 +66,6 @@ table {
 }
 
 .container2{
-    /*background-color: ivory; */
     width: 80%;
     float: left;
     margin: 0 auto;
@@ -82,7 +81,7 @@ table {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 16pt;
     text-justify: auto;
-   
+ 
 }
 
 .h2head {
@@ -92,8 +91,6 @@ table {
     margin-left: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 16pt;
-
-   
 }
 
 img.h2{
@@ -108,14 +105,7 @@ img.h2{
     background-repeat: no-repeat;
 }
 
-  /*.About{
-    /*background-color: ivory; 
-    width: 80%;
-    float: left;
-    margin: 0 auto;
-    position: absolute;
-    
-}*/
+
 
 .footer {
     background-color: rgb(218, 240, 122);
