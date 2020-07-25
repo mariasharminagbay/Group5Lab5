@@ -53,6 +53,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
+  background-color:greenyellow;
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -188,8 +189,10 @@ img{
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
+ 
 }
-.home__data{
+me__data{
+  
   align-self: center;
 }
 .home__title{
@@ -233,9 +236,10 @@ img{
 }
 
 /* ===== ABOUT =====*/
-.about__container{
+.about__container{ 
+  float: inline-start;
   row-gap: 2rem;
-  text-align: center;
+ ;
 }
 .about__subtitle{
   margin-bottom: var(--mb-2);
@@ -244,14 +248,16 @@ img{
   justify-self: center;
 }
 .about__img img{
+  
   width: 200px;
   border-radius: .5rem;
 }
 
 /* ===== SKILLS =====*/
 .skills__container{
+  float:center;
   row-gap: 2rem;
-  text-align: center;
+  /*text-align: center;*/
 }
 .skills__subtitle{
   margin-bottom: var(--mb-2);
@@ -301,14 +307,17 @@ img{
   width: 85%;
 }
 .skills__img{
+  
   border-radius: .5rem;
 }
 
 /* ===== WORK =====*/
 .work__container{
+  float: center;
   row-gap: 2rem;
 }
 .work__img{
+  
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
@@ -354,12 +363,14 @@ img{
 }
 .footer__title{
   font-size: 2rem;
+  text-align: center;
   margin-bottom: var(--mb-4);
 }
 .footer__social{
   margin-bottom: var(--mb-4);
 }
 .footer__icon{
+  align-items: center;
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2)
@@ -373,6 +384,8 @@ img{
   .section{
     padding-top: 4rem;
     padding-bottom: 3rem;
+    float:none;
+    
   }
   .section-title{
     margin-bottom: var(--mb-6);
