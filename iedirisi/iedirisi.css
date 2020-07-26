@@ -95,9 +95,9 @@ p
 	background-color:#3693ff;
 
 }
-/*Show case*/
+
 #showcase{
-	background:url(Background-1.jpg) no-repeat center center/cover;
+	background:url('Background-1.jpg') no-repeat center center/cover;
 	height:35vh;
 
 }
@@ -167,7 +167,6 @@ clear:left;
 font-style:sans-serrif;
 text-align:left;
 color:black;
-}
 }
 
 .footer{
