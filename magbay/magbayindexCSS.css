@@ -3,7 +3,8 @@ body {
 	background-color: rgb(69, 117, 223);
 	background-image: url(../images/familyMSA.jpeg);
 	background-position: center;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 a {
@@ -28,7 +29,7 @@ a:hover {
   }
 
   h1 {
-    font-family: 'Qwigley', Helvetica, Sans-serif;	   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*'Qwigley', Helvetica, Sans-serif;*/	   
     font-size: 3.2em;
 	font-weight: 600;
     color: coral;
@@ -85,7 +86,9 @@ h2 {
 .img2 {
     float: right;
     border-radius: 50%;
-  }
+    margin-top: 3%;
+}
+
 .Aboutclearfix {
     overflow: auto;
 }
@@ -141,6 +144,7 @@ th{
 td,th{
     padding: 6px; 
     width: 50%;
+    text-align: center; 
 }
 
 
@@ -161,31 +165,20 @@ td,th{
     width: 100%;    
 }
 
-.Contact{
-    background-color: rgb(247, 227, 128);
-}
-
-.Contact{
-    width: 80%;
-    float: left;
-    margin: 0 auto;
-    position: absolute;
-    
-}
-
-.ContactHeader {
+ .contactContainer{
     float: right;
-    width: 50px;
-    margin-right: 20px;
-    margin-left: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16pt;
-    text-justify: auto;
-}
+    margin-top: 50px;
+    row-gap: 2rem;
+    padding: 20px 20px;
+  }
 
-#msaHead {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-size: x-large;
- } 
+  .img_Con{
+  
+    border-radius: 50%; 
+    overflow: hidden;
+    width: 250px;
+    height: 165px;
+    margin-top: 50px;
+  }
+
 
