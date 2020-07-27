@@ -16,6 +16,13 @@ body {
   
   }
 
+  .header{
+    width: 100%;
+    position: fixed;
+    top: 5px;
+    left: 0;
+  }
+
 table.center {
     margin-left: auto;
     margin-right: auto;
@@ -85,10 +92,10 @@ h2 {
    color: black;
 }
   
-  .topnav a.active {
+.topnav a.active {
     background-color: #4CAF50;
     color: white;
-  }
+}
 
 
 .img2 {
@@ -186,5 +193,6 @@ td,th{
     height: 165px;
     margin-top: 50px;
   }
+
 
 
